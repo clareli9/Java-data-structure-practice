@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ load()
+comment1.params=dna\ index
+comment1.target=int\ findStartIndex(java.lang.String,\ int)
+comment2.params=dna\ index
+comment2.target=int\ findStopIndex(java.lang.String,\ int)
+comment3.params=dna
+comment3.target=void\ testStorageFinder(java.lang.String)
+comment4.params=dna
+comment4.target=double\ cgRatio(java.lang.String)
+comment5.params=dna
+comment5.target=int\ findCodon(java.lang.String)
+comment6.params=sr
+comment6.target=int\ findLogest(edu.duke.StorageResource)
+comment7.params=
+comment7.target=void\ realTesting()
+numComments=8

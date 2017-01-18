@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=s\ index
+comment0.target=boolean\ countOrNot(java.lang.String,\ int)
+comment0.text=\n\ \ \ \ public\ boolean\ countOrNot(String\ s,\ int\ index){\n\ \ \ \ \ \ \ \ int\ offset\ \=\ 1;\n\ \ \ \ \ \ \ \ if(index\ \=\=\ 0\ ||\ index\ \=\=\ s.length()){\n\ \ \ \ \ \ \ \ \ \ \ \ if(Character.isLetter(s.charAt(index))){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ true;\n\ \ \ \ \ \ \ \ \ \ \ \ }else{\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ false;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ else\ if(index\ >\ 0\ &&\ index\ <\ s.length()){\n\ \ \ \ \ \ \ \ \ \ \ \ if(Character.isLetter(s.charAt(index))){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ true;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ else{\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ }\n}
+comment1.params=resource\ counts
+comment1.target=void\ countWordLengths(edu.duke.FileResource,\ int[])
+comment2.params=
+comment2.target=void\ testCountWordLengths()
+numComments=3
